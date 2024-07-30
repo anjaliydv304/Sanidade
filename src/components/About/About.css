@@ -1,0 +1,88 @@
+.about {
+    padding: 20px;
+   
+    background-size: contain; /* Fit the entire image within the container */
+    background-position: center; /* Center the image */
+    background-repeat: repeat; /* Prevent repeating */
+    background-color: #f0f0f0; 
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Stack children vertically */
+    align-items: center; /* Center children horizontally */
+    justify-content: center; /* Center children vertically */
+}
+
+.about h1 {
+    text-align: center;
+    margin-bottom: 40px; /* Increased margin for better spacing */
+    color: #614153; /* Adjust text color for better contrast */
+    font-size: 2.5rem; /* Larger font size for prominence */
+}
+
+.about-section {
+    text-align: center; /* Centers text within the section */
+    margin-bottom: 40px; /* Increased margin for better spacing */
+}
+
+.about-section h1 {
+    font-size: 3rem; /* Larger font size for prominence */
+    font-weight: 700; /* Bold font weight */
+    color: #333; /* Darker color for better readability */
+    text-transform: uppercase; /* Uppercase for emphasis */
+    letter-spacing: 2px; /* Adds space between letters */
+    margin-bottom: 20px; /* Spacing below the heading */
+    padding: 20px; /* Padding around the text */
+    border: 3px solid #ff69b4; /* Rectangle border around the heading */
+    border-radius: 8px; /* Slightly rounded corners */
+    background-color: #f9f9f9;
+    display: inline-block; /* Make the border fit around the text */
+    position: relative; /* Position for text shadow */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.service-container {
+    display: flex; /* Use flexbox for horizontal alignment */
+    justify-content: center; /* Center rectangles horizontally */
+    gap: 20px; /* Space between rectangles */
+    margin-bottom: 40px; /* Margin for spacing below the rectangles */
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+}
+
+.service-section, .contact-section {
+    display: flex; /* Use flexbox for internal layout */
+    flex-direction: column; /* Stack children vertically */
+    align-items: flex-start; /* Align content to the left */
+    border-radius: 15px; /* Smooth edges for rectangles */
+    width: 600px; /* Fixed width for rectangles */
+    padding: 20px; /* Padding inside the rectangle */
+    background-color: rgba(255, 255, 255, 0.9); /* Slightly less transparent background for better readability */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Enhanced shadow for better visual separation */
+    box-sizing: border-box; /* Ensures padding is included in the width and height */
+    overflow: hidden; /* Ensures content does not overflow the rectangle */
+    margin: 20px; /* Spacing between rectangles */
+}
+
+.service-section h3, .contact-section h3 {
+    font-size: 1.5rem; /* Larger font size for headings */
+    font-weight: 700; /* Bold font weight */
+    color: #ff69b4; /* Pink color for headings */
+    margin-bottom: 15px; /* Margin below the heading for spacing */
+    border-bottom: 2px solid #ff69b4; /* Underline for the heading */
+    padding-bottom: 10px; /* Padding below the text and border */
+}
+
+.service-section p, .contact-section p {
+    font-size: 1rem; /* Font size for paragraphs */
+    line-height: 1.6; /* Line height for better readability */
+    color: #333; /* Dark color for the text */
+    margin-bottom: 20px; /* Margin below the paragraph for spacing */
+}
+
+.contact-section a {
+    color: #ff69b4; /* Pink color for links */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact-section a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
