@@ -9,6 +9,8 @@ import { DetailsPages } from "./pages/details/DetailsPages"
 import { Account } from "./pages/account/Account"
 import { Create } from "./components/create/Create"
 import tracker from "./components/Tracker/tracker"
+import ContactUs from "./components/ContactUs/ContactUs";
+import About from "./components/About/About"; 
 
 const App = () => {
   return (
@@ -23,6 +25,8 @@ const App = () => {
           <Route exact path='/account' component={Account} />
           <Route exact path='/create' component={Create} />
           <Route exact path='/tracker' component={tracker} />
+          <Route exact path="/about" component={About } />
+          <Route exact path="/contact" component={ContactUs } />
         </Switch>
         <Footer />
       </Router>

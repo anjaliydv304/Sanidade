@@ -1,0 +1,71 @@
+.tracker-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.tracker-container h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.react-calendar {
+    width: 100%;
+    max-width: 100%;
+    background: white;
+    border: 2px solid #333; /* Thicker and darker border */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+}
+
+/* Change month color */
+.react-calendar__navigation button {
+    color: #ff69b4; /* Pink color for month navigation buttons */
+}
+
+.react-calendar__tile {
+    color: black; /* Make calendar dates black */
+}
+
+.react-calendar__tile--active {
+    background-color: #ff69b4 !important; /* Highlight selected date */
+    color: white !important;
+}
+
+.highlight {
+    background-color: #ff69b4 !important;
+    color: white !important;
+}
+
+.log {
+    margin-top: 20px;
+    text-align: left;
+    width: 100%;
+}
+
+.log h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.log ul {
+    list-style: none;
+    padding: 0;
+}
+
+.log li {
+    background-color: #ff69b4;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
