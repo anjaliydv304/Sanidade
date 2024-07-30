@@ -1,20 +1,20 @@
 header {
-  background: #fff;
+  background: #fffffff8;
   padding: 20px;
   box-shadow: 0 2px 4px rgb(0 0 0 / 8%);
   position: relative;
   z-index: 44;
 }
-/* nav */
+
 nav ul {
   display: flex;
 }
 nav a {
   text-transform: capitalize;
   margin-right: 30px;
-  color: #000;
+  color: #000000;
 }
-/* User */
+
 .profile {
   margin-left: 30px;
   cursor: pointer;
@@ -30,20 +30,29 @@ nav a {
   font-size: 17px;
   font-weight: 500;
 }
+.profile .boxItems button h4 {
+  color: black; 
+}
 .profile img {
   width: 40px;
   height: 40px;
   border-radius: 50%;
   object-fit: cover;
 }
+.profile .boxItems .icon {
+  color:#fa8dc4; 
+}
 .openProfile {
-  color: #000;
+  color: #000000;
   box-shadow: 0 2px 4px rgb(0 0 0 / 8%);
   position: absolute;
   top: 80px;
   right: 10px;
   width: 250px;
   background: #fff;
+}
+.profile .boxItems a {
+  color: #fa8dc4; 
 }
 .openProfile .box {
   display: flex;

@@ -1,88 +1,88 @@
 .about {
     padding: 20px;
-   
-    background-size: contain; /* Fit the entire image within the container */
-    background-position: center; /* Center the image */
-    background-repeat: repeat; /* Prevent repeating */
+    background: url('https://images.template.net/346636/White-and-Pink-Aesthetic-background-edit-online-1.jpg') no-repeat center center fixed;
+    background-size: contain; 
+    background-position: center; 
+    background-repeat: repeat; 
     background-color: #f0f0f0; 
-    display: flex; /* Use flexbox for layout */
-    flex-direction: column; /* Stack children vertically */
-    align-items: center; /* Center children horizontally */
-    justify-content: center; /* Center children vertically */
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
 }
 
 .about h1 {
     text-align: center;
-    margin-bottom: 40px; /* Increased margin for better spacing */
-    color: #614153; /* Adjust text color for better contrast */
-    font-size: 2.5rem; /* Larger font size for prominence */
+    margin-bottom: 40px; 
+    color: #614153; 
+    font-size: 2.5rem; 
 }
 
 .about-section {
-    text-align: center; /* Centers text within the section */
-    margin-bottom: 40px; /* Increased margin for better spacing */
+    text-align: center; 
+    margin-bottom: 40px; 
 }
 
 .about-section h1 {
-    font-size: 3rem; /* Larger font size for prominence */
-    font-weight: 700; /* Bold font weight */
-    color: #333; /* Darker color for better readability */
-    text-transform: uppercase; /* Uppercase for emphasis */
-    letter-spacing: 2px; /* Adds space between letters */
-    margin-bottom: 20px; /* Spacing below the heading */
-    padding: 20px; /* Padding around the text */
-    border: 3px solid #ff69b4; /* Rectangle border around the heading */
-    border-radius: 8px; /* Slightly rounded corners */
+    font-size: 3rem; 
+    font-weight: 700; 
+    color: #333; 
+    text-transform: uppercase; 
+    letter-spacing: 2px; 
+    margin-bottom: 20px; 
+    padding: 20px; 
+    border: 3px solid #fa8dc4; 
+    border-radius: 8px; 
     background-color: #f9f9f9;
-    display: inline-block; /* Make the border fit around the text */
-    position: relative; /* Position for text shadow */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    display: inline-block; 
+    position: relative; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
 
 .service-container {
-    display: flex; /* Use flexbox for horizontal alignment */
-    justify-content: center; /* Center rectangles horizontally */
-    gap: 20px; /* Space between rectangles */
-    margin-bottom: 40px; /* Margin for spacing below the rectangles */
-    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+    display: flex; 
+    justify-content: center; 
+    gap: 20px; 
+    margin-bottom: 40px; 
+    flex-wrap: wrap; 
 }
 
 .service-section, .contact-section {
-    display: flex; /* Use flexbox for internal layout */
-    flex-direction: column; /* Stack children vertically */
-    align-items: flex-start; /* Align content to the left */
-    border-radius: 15px; /* Smooth edges for rectangles */
-    width: 600px; /* Fixed width for rectangles */
-    padding: 20px; /* Padding inside the rectangle */
-    background-color: rgba(255, 255, 255, 0.9); /* Slightly less transparent background for better readability */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Enhanced shadow for better visual separation */
-    box-sizing: border-box; /* Ensures padding is included in the width and height */
-    overflow: hidden; /* Ensures content does not overflow the rectangle */
-    margin: 20px; /* Spacing between rectangles */
+    display: flex; 
+    flex-direction: column; 
+    align-items: flex-start; 
+    border-radius: 15px; 
+    width: 600px; 
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    box-sizing: border-box; 
+    overflow: hidden; 
+    margin: 20px; 
 }
 
 .service-section h3, .contact-section h3 {
-    font-size: 1.5rem; /* Larger font size for headings */
-    font-weight: 700; /* Bold font weight */
-    color: #ff69b4; /* Pink color for headings */
-    margin-bottom: 15px; /* Margin below the heading for spacing */
-    border-bottom: 2px solid #ff69b4; /* Underline for the heading */
-    padding-bottom: 10px; /* Padding below the text and border */
+    font-size: 1.5rem; 
+    font-weight: 700; 
+    color: #fa8dc4; 
+    margin-bottom: 15px; 
+    border-bottom: 2px solid #fa8dc4; 
+    padding-bottom: 10px; 
 }
 
 .service-section p, .contact-section p {
-    font-size: 1rem; /* Font size for paragraphs */
-    line-height: 1.6; /* Line height for better readability */
-    color: #333; /* Dark color for the text */
-    margin-bottom: 20px; /* Margin below the paragraph for spacing */
+    font-size: 1rem; 
+    line-height: 1.6; 
+    color: #333; 
+    margin-bottom: 20px; 
 }
 
 .contact-section a {
-    color: #ff69b4; /* Pink color for links */
+    color: #fa8dc4; 
     text-decoration: none;
     font-weight: bold;
 }
 
 .contact-section a:hover {
-    text-decoration: underline; /* Underline on hover */
+    text-decoration: underline; 
 }

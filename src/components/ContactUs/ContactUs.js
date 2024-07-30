@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './ContactUs.css'; // Check this path
+import './ContactUs.css'; 
 const ContactUs = () => {
     const [formData, setFormData] = useState({
         name: '',
@@ -25,6 +25,7 @@ const ContactUs = () => {
     };
 
     return (
+        <div className="contact-us-page">
         <div className="contact-container">
             <h1>Contact Us</h1>
             <form onSubmit={handleSubmit}>
@@ -59,6 +60,7 @@ const ContactUs = () => {
 
                 <button type="submit">Submit</button>
             </form>
+        </div>
         </div>
     );
 };

@@ -11,24 +11,15 @@ export const nav = [
   },
   {
     id: 3,
-    text: "pages",
-    url: "/pages",
-  },
-  {
-    id: 4,
-    text: "blog",
-    url: "/blog",
-  },
-  {
-    id: 5,
     text: "contact",
     url: "/contact",
   },
   {
-    id: 6,
-    text: "tracker", 
-    url: "/tracker", 
+    id: 4,
+    text: "tracker",
+    url: "/tracker",
   },
+  
 ];
 
 export const category = [

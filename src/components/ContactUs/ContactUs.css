@@ -1,8 +1,8 @@
 
 .contact-us-page {
-    background: url('../../assets/images/bgimage2.png') no-repeat center center fixed;
+    background: url('https://images.template.net/346636/White-and-Pink-Aesthetic-background-edit-online-1.jpg') no-repeat center center fixed;
     background-size: cover;
-    background-color: rgba(248, 248, 248, 0.9); /* Slightly transparent white to ensure text readability */
+    background-color: rgba(248, 248, 248, 0.9); 
     margin: 0;
     padding: 0;
     height: 100vh;
@@ -13,24 +13,24 @@
     width: 80%;
     max-width: 800px;
     margin: 50px auto;
-    padding: 40px 20px; /* Increased padding for better spacing */
-    background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent white */
+    padding: 40px 20px; 
+    background-color: rgba(255, 255, 255, 0.9); 
     border-radius: 12px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Stronger shadow for depth */
-    backdrop-filter: blur(10px); /* Blur effect for modern look */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); 
+    backdrop-filter: blur(10px); 
     text-align: center;
 }
 
 h1 {
-    color: #ff69b4; /* Pink color */
-    margin-bottom: 30px; /* Space below the heading */
-    font-size: 2.5rem; /* Larger font size */
+    color: #fa8dc4; 
+    margin-bottom: 30px; 
+    font-size: 2.5rem; 
 }
 
 form {
     display: flex;
     flex-direction: column;
-    align-items: center; /* Center form elements */
+    align-items: center;
 }
 
 label {
@@ -46,7 +46,7 @@ textarea {
     width: 100%;
     padding: 12px;
     margin-bottom: 20px;
-    border: 1px solid #ddd;
+    border: 1px solid #362e2e;
     border-radius: 8px;
     box-sizing: border-box;
     font-size: 1rem;
@@ -57,14 +57,14 @@ input[type="text"]:focus,
 input[type="email"]:focus,
 select:focus,
 textarea:focus {
-    border-color: #ff69b4;
+    border-color:  #fa8dc4;
     outline: none;
 }
 
 button {
     width: 100%;
     padding: 15px;
-    background-color: #ff69b4;
+    background-color: #fa8dc4;
     color: #fff;
     border: none;
     border-radius: 8px;
@@ -74,12 +74,12 @@ button {
 }
 
 button:hover {
-    background-color: #ff1493;
+    background-color:  #fa8dc4;
     transform: translateY(-2px);
 }
 
 button:active {
-    background-color: #ff69b4;
+    background-color: #fa8dc4;
     transform: translateY(0);
 }
 

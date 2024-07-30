@@ -1,4 +1,6 @@
+
 .tracker-container {
+    background: url('https://images.template.net/346636/White-and-Pink-Aesthetic-background-edit-online-1.jpg') no-repeat center center fixed;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -20,28 +22,28 @@
     width: 100%;
     max-width: 100%;
     background: white;
-    border: 2px solid #333; /* Thicker and darker border */
+    border: 2px solid #333; 
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     padding: 10px;
 }
 
-/* Change month color */
+
 .react-calendar__navigation button {
-    color: #ff69b4; /* Pink color for month navigation buttons */
+    color: #fa8dc4; 
 }
 
 .react-calendar__tile {
-    color: black; /* Make calendar dates black */
+    color: black; 
 }
 
 .react-calendar__tile--active {
-    background-color: #ff69b4 !important; /* Highlight selected date */
+    background-color: #fa8dc4 !important; 
     color: white !important;
 }
 
 .highlight {
-    background-color: #ff69b4 !important;
+    background-color: #fa8dc4 !important;
     color: white !important;
 }
 
@@ -63,7 +65,7 @@
 }
 
 .log li {
-    background-color: #ff69b4;
+    background-color: #fa8dc4;
     color: white;
     padding: 10px;
     border-radius: 5px;
